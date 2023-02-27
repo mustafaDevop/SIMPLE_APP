@@ -73,4 +73,22 @@ An environment is the collection of AWS resources and permissions to allow your 
 
 ![7](https://user-images.githubusercontent.com/94189602/221562952-6dac7dc5-c75f-439c-ad22-a0d9121ea7be.PNG)
 
-            **Congratulations**! You've deployed a sample application and learned about the resources that spun up automatically.
+   **Congratulations**! You've deployed a sample application and learned about the resources that spun up automatically.
+
+### Step 2. Inspect the resources created for you
+
+* Navigate to the EC2 console and inspect the instance that was created for you. The instance has the same name as your application. You can administer and manage this EC2 as if you created it yourself.
+
+* On the same EC2 dashboard, on the left-side menu pane, select the **Security groups** service to view the security groups (firewall rules) that got created automatically.
+
+* You can also navigate to the Amazon S3 service to view the S3 buckets created for the web application. All these resources are managed by the Elastic Beanstalk service
+
+### Step 3. Cleanup and delete resources
+
+* To clean up the resources to avoid recurring charges, you must delete your AWS resources.
+
+* **Delete application**: Go to the Elastic Beankstalk's **Applications** dashboard. Click on the **Actions** button in the upper right-hand corner, and click on **Delete application** to delete your application components.
+
+* **Delete environment**: Ideally, deleting the application will also delete the associated environment. However, you can navigate back to the Elastic Beankstalk's **Environments** dashboard. Select your environment, if any exists. Select the **Actions** button in the upper-right hand corner, and click on **rminate environment**o terminate your environment.
+
+* **Delete S3 buckets**: Lastly, delete the S3 bucket that got automatically created for you. Go to the S3 console and delete the bucket related to the Beanstalk. In case, you face an access denied error, refer to the [troubleshooting steps here](https://repost.aws/forums?origin=thread.jspa&threadID=268063).
