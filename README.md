@@ -15,9 +15,9 @@ From the AWS Management Console page, select the Elastic Beanstalk service.
 
 * Use the Create Application wizard to create an application with the following configuration details:
 
-                                                |  Field	              |    Value                                        |
-                                                |  ---------------------- |    ------------------                           |
-                                                |  Application name       |    Your choice                                  |
-                                                |  Platform	              |    Tomcat                                       |
-                                                                          |    Use the default Platform branch and version  | 
-                                                |  Application code       |    Sample application                           |
+|  Field	              |    Value                                        |
+|  ---------------------- |    ------------------                           |
+|  Application name       |    Your choice                                  |
+|  Platform	              |    Tomcat                                       |
+|                         |    Use the default Platform branch and version  | 
+|  Application code       |    Sample application                           |
