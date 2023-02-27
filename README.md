@@ -55,5 +55,22 @@ An environment is the collection of AWS resources and permissions to allow your 
 
 * EC2 load balancer You can even see the logs of each event (success and failure) after the creation of the environment. See the snapshots below.
 
+![4](https://user-images.githubusercontent.com/94189602/221562363-8cbed901-ebcc-46a4-bd73-07495266b5d2.PNG)
 
+![5](https://user-images.githubusercontent.com/94189602/221562367-bc52bf31-f573-4170-a7dd-d756f9aa8ee9.PNG)
 
+                        Events logs while creating the environment.
+                        
+* You can change the log-level to see more detailed information. The standard log-levels in any application are trace, debug, info, warn, error, and fatal.
+
+* Your application is created once you see a green checkmark and the Health of your application as **Ok**.
+
+![6](https://user-images.githubusercontent.com/94189602/221562916-c1b562cd-1583-436a-b019-923e57769269.PNG)
+            
+                                    A successfully deployed application.
+
+* After the application is deployed successfully, copy the application’s URL that can be found against your application’s name, and paste it in a web browser like Chrome or Safari.
+
+![7](https://user-images.githubusercontent.com/94189602/221562952-6dac7dc5-c75f-439c-ad22-a0d9121ea7be.PNG)
+
+            **Congratulations**! You've deployed a sample application and learned about the resources that spun up automatically.
