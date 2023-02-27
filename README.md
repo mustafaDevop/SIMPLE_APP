@@ -21,3 +21,35 @@ From the AWS Management Console page, select the Elastic Beanstalk service.
 |  Platform	              |    Tomcat                                       |
 |                         |    Use the default Platform branch and version  | 
 |  Application code       |    Sample application                           |
+
+* It will create an environment for a sample application to run
+
+##What is an environment?
+An environment is the collection of AWS resources and permissions to allow your web application to run smoothly. The Elastic Beanstalk service manages the environment for us.
+![2](https://user-images.githubusercontent.com/94189602/221560651-980942cc-d4e2-4af3-bce7-4c3a4667bb36.PNG)
+
+![3](https://user-images.githubusercontent.com/94189602/221560660-63a52cba-924f-438a-b0e6-a77165397280.PNG)
+                       Create a sample web application, that will run on the Tomcat webserver
+
+* Click the **Create application** button.
+         
+     **Note**: It will take about 10 minutes for your application, and its environment to be created.
+
+* **Important** - Observe the logs shown on your dashboard to understand the resources that are spun up to support your application. While launching the environment and deploying EC2 instances to run your application, the following resources get created automatically:
+
+* Amazon S3 storage bucket
+
+* A target group in the default VPC
+
+* Multiple security groups
+
+* An autoscaling launch configuration and an autoscaling group
+
+* Multiple EC2 instances
+
+* Multiple CloudWatch alarms
+
+* EC2 load balancer You can even see the logs of each event (success and failure) after the creation of the environment. See the snapshots below.
+
+
+
