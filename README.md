@@ -11,3 +11,4 @@ Follow the exercise instructions described below:
 From the AWS Management Console page, select the Elastic Beanstalk service.
             
  ![1](https://user-images.githubusercontent.com/94189602/221556080-22ced200-9ba5-4d7d-9769-0dc1925cab5f.PNG)
+                        Launch the default ### Create application wizard
