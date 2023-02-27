@@ -6,8 +6,8 @@ In this hands-on exercise, you will use Elastic Beanstalk to deploy a web applic
 
 Follow the exercise instructions described below:
 
-Step 1. Access Elastic Beanstalk service from AWS Management Console
+### Step 1. Access Elastic Beanstalk service from AWS Management Console
 
 From the AWS Management Console page, select the Elastic Beanstalk service.
             
-     ![1](https://user-images.githubusercontent.com/94189602/221556080-22ced200-9ba5-4d7d-9769-0dc1925cab5f.PNG)
+ ![1](https://user-images.githubusercontent.com/94189602/221556080-22ced200-9ba5-4d7d-9769-0dc1925cab5f.PNG)
