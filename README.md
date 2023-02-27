@@ -24,8 +24,10 @@ From the AWS Management Console page, select the Elastic Beanstalk service.
 
 * It will create an environment for a sample application to run
 
-##What is an environment?
+## What is an environment?
+
 An environment is the collection of AWS resources and permissions to allow your web application to run smoothly. The Elastic Beanstalk service manages the environment for us.
+
 ![2](https://user-images.githubusercontent.com/94189602/221560651-980942cc-d4e2-4af3-bce7-4c3a4667bb36.PNG)
 
 ![3](https://user-images.githubusercontent.com/94189602/221560660-63a52cba-924f-438a-b0e6-a77165397280.PNG)
